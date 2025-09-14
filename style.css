@@ -47,7 +47,7 @@ header {
 }
 
 .calendar-container, .form-container {
-  background: white;
+  background: purple;
   margin: 20px auto;
   padding: 20px;
   border-radius: 12px;
@@ -107,6 +107,7 @@ form button {
   background: #ff4d4d;
   color: white;
 }
+
 
 
 
