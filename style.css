@@ -5,13 +5,13 @@ body {
   margin: 0;
   padding: 0;
     /* background image */
-  background-image: url("images/rich\ hall.png/");
+  background-image: url("rich hall.png");
   background-size: cover; 
   background-position: center;
   background-attachment: fixed;
 }
 .hero {
-  background-image: url("images/rich\ hall.png");
+  background-image: url("rich hall.png");
   background-size: cover;
   background-position: center;
   color: white;
@@ -102,4 +102,5 @@ form button {
   background: #ff4d4d;
   color: white;
 }
+
 
