@@ -4,6 +4,18 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+    /* background image */
+  background-image: url("images/rich\ hall.png/");
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed;
+}
+.hero {
+  background-image: url("images/rich\ hall.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
 }
 .hall-list {
   display: flex;
@@ -90,3 +102,4 @@ form button {
   background: #ff4d4d;
   color: white;
 }
+
