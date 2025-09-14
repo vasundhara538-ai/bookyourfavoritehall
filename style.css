@@ -11,7 +11,7 @@ body {
   background-attachment: fixed;
 }
 .hero {
-  background-image: url("image-generator.png");
+  background-image: url("rich hall.png");
   background-size: cover;
   background-position: center;
   color: white;
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 1px;
   margin: 30px;
 }
 
@@ -102,6 +102,7 @@ form button {
   background: #ff4d4d;
   color: white;
 }
+
 
 
 
