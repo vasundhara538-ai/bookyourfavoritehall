@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hall Booking</title>
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 id="hallName">Kalyana Mandapam</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>📅 Select Your Booking Dates</h2>
+      <label for="yearSelect">Choose Year:</label>
+      <select id="yearSelect"></select>
+
+      <label for="monthSelect">Choose Month:</label>
+      <select id="monthSelect"></select>
+
+      <div id="calendar"></div>
+    </section>
+
+    <section>
+      <h2>📋 Booking Form</h2>
+      <form id="bookingForm">
+        <label>Full Name:</label>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone:</label>
+        <input type="tel" name="phone" required><br><br>
+
+        <label>Selected Hall:</label>
+        <input type="text" id="selectedHall" readonly><br><br>
+
+        <label>Selected Dates:</label>
+        <textarea id="selectedDates" readonly required></textarea><br><br>
+
+        <label>Preferred Time:</label>
+        <select name="time" required>
+          <option value="">--Select--</option>
+          <option>Morning</option>
+          <option>Afternoon</option>
+          <option>Evening</option>
+        </select><br><br>
+
+        <button type="submit">Confirm Booking ✅</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

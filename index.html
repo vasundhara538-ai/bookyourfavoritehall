@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hall Booking System</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="hallName">Welcome to Wedding Hall Page</h1>
+    <h2 id="Choose Your Dream Hall in Venkatagiri">Choose Your Dream Hall in Venkatagiri</h2>
+  </header>
+  <Main>
+    <div class="hall-list">
+      <a href="hall.html?hall=ttd">TTD Kalyana Mandapam</a>
+      <a href="hall.html?hall=dvs">DVS Kalyana Mandapam</a>
+      <a href="hall.html?hall=satyasai">SatyaSai Kalyana Mandapam</a><br>
+      <a href="hall.html?hall=kanyaka">Kanyaka Parameswari Kalyana Mandapam</a>
+      <a href="hall.html?hall=satyavathi">Satyavathi Kalyana Mandapam</a>
+      <a href="hall.html?hall=tripura">Tripura Sundari Kalyana Mandapam</a><br>
+      <a href="hall.html?hall=padmasali">Padmasali Kalyana Mandapam</a>
+      <a href="hall.html?hall=srinivasa">Sri Sreenivasa Kalyana Mandapam</a>
+      <a href="hall.html?hall=velama">Velama Kalyana Mandapam</a>
+    </div>
+  </main>
+  <section class="hall-selection">
+    <label for="hallSelect">🏛 Event type:</label>
+    <select id="hallSelect">
+      <option value="Kalyana Mandapam">Wedding</option>
+      <option value="Birthday Event">Birthday  Event</option>
+      <option value="Babyshower Function">Babyshower Function</option>
+      <option value="Engagement">Engagement</option>
+    </select>
+  </section>
+  <section class="calendar-container">
+    <h3>📅 Select Your Booking Dates</h3>
+    <label for="yearSelect">Choose Year:</label>
+    <select id="yearSelect"></select>
+    <label for="monthSelect">Choose Month:</label>
+    <select id="monthSelect"></select>
+    <div id="calendar"></div>
+  </section>
+
+  <section class="form-container">
+    <h3>📝 Booking Form</h3>
+    <form id="bookingForm">
+      <label>Full Name:</label>
+      <input type="text" id="fullName" required>
+
+      <label>Email:</label>
+      <input type="email" id="email" required>
+
+      <label>Phone:</label>
+      <input type="tel" id="phone" required>
+
+ <label> Selected Hall:</label>
+      <select id="Select Hall">
+        <option value="">--Select--</option>
+        <option value="TTD Kalyana Mandapam">TTD Kalyana Mandapam</option>
+        <option value="DVS Kalyana Mandapam">DVS Kalyana Mandapam</option>
+        <option value="SatyaSai Kalyana Mandapam">SatyaSai Kalyana Mandapam</option>
+        <option value="Kanyaka Parameswari Kalyana Mandapam">Kanyaka Parameswari Kalyana Mandapam</option>
+        <option value="Satyavathi Kalyana Mandapam">Satyavathi Kalyana Mandapam</option>
+        <option value="Tripura Sundari Kalyana Mandapam">Tripura Sundari Kalyana Mandapam</option>
+        <option value="Padmasali Kalyana Mandapam">Padmasali Kalyana Mandapam</option>
+        <option value="Sri Sreenivasa Kalyana Mandapam">Sri Sreenivasa Kalyana Mandapam</option>
+        <option value="Velama Kalyana Mandapam">Velama Kalyana Mandapam</option>
+      </select>
+
+      <label>Selected Dates:</label>
+      <textarea id="selectedDates" readonly></textarea>
+
+      <label>Preferred Time:</label>
+      <select id="timeSelect">
+        <option value="">--Select--</option>
+        <option value="Morning">Morning</option>
+        <option value="Afternoon">Afternoon</option>
+        <option value="Evening">Evening</option>
+      </select>
+
+      <label>Payment Option (Optional):</label>
+      <select id="paymentOption">
+        <option value="">--Select--</option>
+        <option value="PhonePe">PhonePe</option>
+        <option value="GooglePay">Google Pay</option>
+        <option value="Card">Debit/Credit Card</option>
+      </select>
+
+      <button type="submit">✅ Confirm Booking</button>
+      <button type="button" id="cancelBooking">❌ Cancel Booking</button>
+    </form>
+  </section>
+   <section class="admin-contact">
+    <h3>📞 App Admin Contact</h3>
+    <p>Email: <a href="mailto:admin@hallbookings.com">admin@hallbookings.com</a></p>
+    <p>Phone: <a href="tel:+919876543210">+91 6369277124</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+  <footer>
+    © 2025 My Website | All Rights Reserved
+  </footer>
+</body>
+</html>

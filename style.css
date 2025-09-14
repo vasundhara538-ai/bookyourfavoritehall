@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffe9b8, #ffd9a8);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.hall-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px;
+}
+
+.hall-list a {
+  background: purple;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+header {
+  background: goldenrod;
+  color: darkblue;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.calendar-container, .form-container {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.day {
+  padding: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.available {
+  background: #90ee90;
+}
+
+.booked {
+  background: #ff6b6b;
+  cursor: not-allowed;
+}
+
+.selected {
+  background: #ffa500;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+form input, form select, form textarea, form button {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#cancelBooking {
+  background: #ff4d4d;
+  color: white;
+}
