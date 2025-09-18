@@ -138,14 +138,15 @@
   };
 
   // Update background
-  if (eventType && backgrounds[eventType]) {
-    document.body.style.backgroundImage = backgrounds[eventType];
+  if (eventType && backgrounds[wedding]) {
+    document.body.style.backgroundImage = backgrounds[wedding];
   } else {
     // Reset if nothing selected
     document.body.style.backgroundImage = "none";
   }
 }
 })();
+
 
 
 
