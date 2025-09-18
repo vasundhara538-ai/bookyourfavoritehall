@@ -125,27 +125,8 @@
     const hallInput = document.getElementById('hallInput');
     if (hallInput) hallInput.value = storedHall;
   }
-  function changeBackground() {
-  const eventType = document.getElementById("eventType").value;
+  })();
 
-  // Backgrounds for each event type
-  const backgrounds = {
-    wedding: "url('image-generator(1).png')",
-    engagement: "url('engagement.png')",
-    reception: "url('rich hall.png')",
-    birthday: "url('image-generator.png')"
-    Others: "url('rich hall.png')"
-  };
-
-  // Update background
-  if (eventType && backgrounds[wedding]) {
-    document.body.style.backgroundImage = backgrounds[wedding];
-  } else {
-    // Reset if nothing selected
-    document.body.style.backgroundImage = "none";
-  }
-}
-})();
 
 
 
