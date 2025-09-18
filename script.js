@@ -91,3 +91,24 @@ yearSelect.onchange = generateCalendar;
 monthSelect.onchange = generateCalendar;
 
 populateDropdowns();
+function changeBackground() {
+  const eventType = document.getElementById("eventType").value;
+
+  // Backgrounds for each event type
+  const backgrounds = {
+    wedding: "url('image-generator(1).png')",
+    engagement: "url('engagement.png')",
+    reception: "url('rich hall.png')",
+    birthday: "url('image-generator.png')"
+    Others: "url('rich hall.png')"
+  };
+
+  // Update background
+  if (eventType && backgrounds[eventType]) {
+    document.body.style.backgroundImage = backgrounds[eventType];
+  } else {
+    // Reset if nothing selected
+    document.body.style.backgroundImage = "none";
+  }
+};
+
