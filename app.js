@@ -130,10 +130,11 @@
 
   // Backgrounds for each event type
   const backgrounds = {
-    wedding: "url('images/wedding-bg.jpg')",
-    engagement: "url('images/engagement-bg.jpg')",
-    reception: "url('images/reception-bg.jpg')",
-    birthday: "url('images/birthday-bg.jpg')"
+    wedding: "url('image-generator(1).png')",
+    engagement: "url('engagement.png')",
+    reception: "url('rich hall.png')",
+    birthday: "url('image-generator.png')"
+    babyshower: "url('rich hall.png')"
   };
 
   // Update background
@@ -145,4 +146,5 @@
   }
 }
 })();
+
 
