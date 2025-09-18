@@ -125,4 +125,24 @@
     const hallInput = document.getElementById('hallInput');
     if (hallInput) hallInput.value = storedHall;
   }
+  function changeBackground() {
+  const eventType = document.getElementById("eventType").value;
+
+  // Backgrounds for each event type
+  const backgrounds = {
+    wedding: "url('images/wedding-bg.jpg')",
+    engagement: "url('images/engagement-bg.jpg')",
+    reception: "url('images/reception-bg.jpg')",
+    birthday: "url('images/birthday-bg.jpg')"
+  };
+
+  // Update background
+  if (eventType && backgrounds[eventType]) {
+    document.body.style.backgroundImage = backgrounds[eventType];
+  } else {
+    // Reset if nothing selected
+    document.body.style.backgroundImage = "none";
+  }
+}
 })();
+
