@@ -100,6 +100,38 @@ form button {
   background: #ff4d4d;
   color: white;
 }
+header {
+  background: #6a1b9a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.hall-container {
+  display: flex;
+  margin: 20px;
+}
+
+.hall-details {
+  flex: 1;
+  padding: 20px;
+  background: #f3f3f3;
+  border-right: 2px solid #ddd;
+}
+
+.hall-photos {
+  flex: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.hall-photos img {
+  max-width: 80%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+
 
 
 
