@@ -134,7 +134,7 @@
     engagement: "url('engagement.png')",
     reception: "url('rich hall.png')",
     birthday: "url('image-generator.png')"
-    babyshower: "url('rich hall.png')"
+    Others: "url('rich hall.png')"
   };
 
   // Update background
@@ -146,5 +146,6 @@
   }
 }
 })();
+
 
 
