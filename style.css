@@ -5,18 +5,11 @@ body {
   margin: 0;
   padding: 0;
    /* Background image */
-  background-image: url("rich hall.png"); /* adjust path */
+  background-image: url("image-generator.png"); /* adjust path */
   background-size: cover;      /* stretch to cover full page */
   background-repeat: no-repeat; /* don’t repeat */
   background-position: center;  /* center the image */
   background-attachment: fixed; /* optional: keeps image fixed on scroll */
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  transition: background-image 0.5s ease-in-out; /* smooth change */
   
   color: white; /* makes text readable */
   text-align: center;
@@ -137,6 +130,7 @@ header {
   border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
 }
+
 
 
 
