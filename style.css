@@ -5,13 +5,13 @@ body {
   margin: 0;
   padding: 0;
    /* Background image */
-  background-image: url("image-generator.png"); /* adjust path */
+  background-image: url("engagement.png"); /* adjust path */
   background-size: cover;      /* stretch to cover full page */
   background-repeat: no-repeat; /* don’t repeat */
   background-position: center;  /* center the image */
   background-attachment: fixed; /* optional: keeps image fixed on scroll */
   
-  color: red; /* makes text readable */
+  color: Red; /* makes text readable */
   text-align: center;
 }
 .hall-list {
@@ -130,6 +130,7 @@ header {
   border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
 }
+
 
 
 
