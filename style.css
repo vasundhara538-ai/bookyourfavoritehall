@@ -11,7 +11,7 @@ body {
   background-position: center;  /* center the image */
   background-attachment: fixed; /* optional: keeps image fixed on scroll */
   
-  color: blue; /* makes text readable */
+  color: white; /* makes text readable */
   text-align: center;
 }
 .hall-list {
@@ -130,6 +130,7 @@ header {
   border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
 }
+
 
 
 
